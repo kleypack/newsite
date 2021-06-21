@@ -96,10 +96,15 @@ a {
 }
 
 a:hover {
-	color: rgba(17, 17, 17, .9);
+	background: linear-gradient(90deg, #BF2A52 0%, #295FA6 100%);
+  	background-clip: text;
+  	-webkit-background-clip: text;
+  	-moz-background-clip: text;
+  	-moz-text-fill-color: transparent;
+  	-webkit-text-fill-color: transparent;
 	-webkit-animation: pulsate 3.2s ease-out;
-    -webkit-animation-iteration-count: infinite; 
-    opacity: 1;
+	-webkit-animation-iteration-count: infinite; 
+	opacity: 1;
 }
 
 @-webkit-keyframes pulsate {
@@ -379,7 +384,12 @@ DARK MODE
 	}
 
 	a:hover {
-		color: rgba(238, 238, 238, .8);
+		background: linear-gradient(90deg, #d84c71 0%, #3677cd 100%);
+  		background-clip: text;
+  		-webkit-background-clip: text;
+  		-moz-background-clip: text;
+  		-moz-text-fill-color: transparent;
+  		-webkit-text-fill-color: transparent;;
 	}
 
 	#mainNav a.active-dropdown-folder, #mainNav a.active-folder-page, #secondaryNav a.active-page {
