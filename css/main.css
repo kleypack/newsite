@@ -55,7 +55,7 @@ body {
 
 .video-wrapper iframe {
 	border-radius: 8px;
-	box-shadow: 0 12px 50px 10px rgba(0, 0, 0, 0.25);
+	box-shadow: 0 12px 50px 10px rgba(0, 0, 0, 0.15), 0 15px 10px -10px rgba(0, 0, 0, 0.25);
 }
 
 img {
