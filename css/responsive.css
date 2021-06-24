@@ -170,6 +170,18 @@
 			letter-spacing: .02em;
 		}
 
+		img {
+			box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.8);
+		}
+
+		.video-wrapper iframe {
+			box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.8);
+		}
+
+		.youtube-video-wrapper {
+			box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.8);
+		}
+
 
 		header a.nav-icon {
 			font-weight: 400;
