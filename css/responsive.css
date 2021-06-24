@@ -162,8 +162,8 @@
 
 	@media (prefers-color-scheme: dark) {
 		body {
-			background-color: #000;
-			background-image: linear-gradient(180deg, #000 0%, #000 20%, #1a1a1a 100%);
+			background-color: #171717;
+			background-image: linear-gradient(180deg, #171717 0%, #232323 100%);
 		}
 
 		p {
